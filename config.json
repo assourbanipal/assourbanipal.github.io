@@ -8,18 +8,18 @@
     "text": "Osefmegrav"
   },
   "text": {
-    "more": "Non",
-    "intro": "Partouze bourgeoise",
+    "more": "Les informations sont retrouvables dans des articles de presse officiels (dont la plupart servent de source à wikipedia) ou sur les sites officiels\ndes structures.\nLes profils linkedin et twitter des personnes présentes ici ont beaucoup contribué à ces recherches.\n\nLa nature des liens qui unissent les gens et les différentes organisations n\u0027est pour le moment pas affichée.\nDes recherches sont en cours pour les faire apparaitre.\n\nCe diagramme représente 80% de la totalité des informations regroupées. Des liens manquent encore mais ne devraient pas tarder à arriver.\n\nLes couleurs des noeuds changeront selon le type qui leur sera attribué à l\u0027avenir.",
+    "intro": "Diagramme des relations entre personnalités et structures.",
     "title": "Complof"
   },
   "legend": {
-    "edgeLabel": "Lien",
+    "edgeLabel": "Liens qui unissent ces personnes",
     "colorLabel": "None",
-    "nodeLabel": "Nom"
+    "nodeLabel": "Noms des personnes/structures"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": "Interval",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
