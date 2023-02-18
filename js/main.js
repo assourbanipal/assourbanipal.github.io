@@ -78,7 +78,7 @@ function initSigma(config) {
 	else
 		mouseProps={
         minRatio: 0.75, // How far can we zoom out?
-        maxRatio: 20, // How far can we zoom in?
+        maxRatio: 50, // How far can we zoom in?
     	};
 	
     var a = sigma.init(document.getElementById("sigma-canvas")).drawingProperties(drawProps).graphProperties(graphProps).mouseProperties(mouseProps);
@@ -527,10 +527,7 @@ function nodeActive(a) {
 	//console.log(sigInst.neighbors);
 
 	if (groupByDirection) {
-		size=Object.size(mutual);
-		f.push("<h2>Mututal (" + size + ")</h2>");
-		(size>0)? f=f.concat(createList(mutual)) : f.push("No mutual links<br>");
-		size=Object.size(incoming);
+				size=Object.size(incoming);
 		f.push("<h2>Incoming (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(incoming)) : f.push("No incoming links<br>");
 		size=Object.size(outgoing);
