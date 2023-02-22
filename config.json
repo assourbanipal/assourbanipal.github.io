@@ -12,19 +12,13 @@
     "intro": "Diagramme des relations entre personnalités et structures.",
     "title": "Qui est qui ? Qui fait quoi ?"
   },
-  "legend": {
-    "edgeLabel": "Liens qui unissent ces personnes",
-    
-  },
+  "
   "features": {
     "search": true,
     "groupSelectorAttribute": "type",
     "hoverBehavior": "dim"
   },
-  "informationPanel": {
-    "groupByEdgeDirection": false,
-    "imageAttribute": false
-  },
+  
   "sigma": {
     "drawingProperties": {
       "defaultEdgeType": "line",
