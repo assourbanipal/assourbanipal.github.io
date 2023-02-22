@@ -19,16 +19,16 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Interval",
+    "groupSelectorAttribute": "type",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
-    "groupByEdgeDirection": true,
+    "groupByEdgeDirection": false,
     "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "line",
+      "defaultEdgeType": "curve",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
@@ -40,13 +40,13 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 2,
+      "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
       "minNodeSize": 1,
       "maxNodeSize": 7
     },
     "mouseProperties": {
-      "maxRatio": 50,
+      "maxRatio": 20,
       "minRatio": 0.75
     }
   }
