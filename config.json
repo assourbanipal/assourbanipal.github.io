@@ -12,7 +12,9 @@
     "intro": "Diagramme des relations entre personnalités et structures.",
     "title": "Complof"
   },
-  
+  "legend": {
+    
+  },
   "features": {
     "search": true,
     "groupSelectorAttribute": "Interval",
