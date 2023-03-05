@@ -12,11 +12,7 @@
     "intro": "Diagramme des relations entre personnalités et structures.",
     "title": "Qui et qui ?"
   },
-  "legend": {
-    "edgeLabel": "Liens qui unissent ces personnes",
-    "colorLabel": "None",
-    "nodeLabel": "Noms des personnes/structures"
-  },
+  
   "features": {
     "search": true,
     "groupSelectorAttribute": "Interval",
