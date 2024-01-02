@@ -1,6 +1,6 @@
 // Scott Hale (Oxford Internet Institute)
 // Requires sigma.js and jquery to be loaded
-// based on parseGexf from Mathieu Jacomy @ Sciences Po Médialab & WebAtlas
+// based on parseGexf from Mathieu Jacomy @ Sciences Po MÃ©dialab & WebAtlas
 
 sigma.publicPrototype.parseJson = function(jsonPath,callback) {
 	var sigmaInstance = this;
@@ -15,7 +15,7 @@ sigma.publicPrototype.parseJson = function(jsonPath,callback) {
 			var edgeNode = data.edges[j];
 
 			var source = edgeNode.source;
-			var target = edgeNode.target;
+			var target = edgeNode.source;
 			var label = edgeNode.label;
 			var eid = edgeNode.id;
 
