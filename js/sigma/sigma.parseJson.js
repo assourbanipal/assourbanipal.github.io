@@ -15,7 +15,7 @@ sigma.publicPrototype.parseJson = function(jsonPath,callback) {
 			var edgeNode = data.edges[j];
 
 			var source = edgeNode.source;
-			var target = edgeNode.source;
+			var target = edgeNode.target;
 			var label = edgeNode.label;
 			var eid = edgeNode.id;
 
